@@ -18,7 +18,7 @@ namespace FreeCourse.Services.Catalog.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll(string id)
+        public async Task<IActionResult> GetAll()
         {
             var response = await _courseService.GetAllAsync();
 
