@@ -11,7 +11,7 @@ namespace FreeCourse.Services.Catalog.Services
     internal interface ICategoryService
     {
         Task<Response<List<CategoryDto>>> GetAllAsnyc();
-        Task<Response<CategoryDto>> CreateAsnyc(Category category);
+        Task<Response<CategoryDto>> CreateAsnyc(CategoryDto categoryDto);
         Task<Response<CategoryDto>> GetByIdAsync(string id);
     }
 }
