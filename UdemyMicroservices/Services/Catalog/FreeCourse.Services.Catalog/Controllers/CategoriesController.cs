@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace FreeCourse.Services.Catalog.Controllers
 {
-
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : CustomBaseController
