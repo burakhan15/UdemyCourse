@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 	<ItemGroup>
-		<FrameworkReference Include="Microsoft.AspNetcore.App"/>
+		<FrameworkReference Include="Microsoft.AspNetcore.App" />
 	</ItemGroup>
 
 </Project>

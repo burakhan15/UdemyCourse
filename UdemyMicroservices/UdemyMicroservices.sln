@@ -26,6 +26,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{0413849B-C480-4701-8A0D-2F9FA6156C67}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{6DA406EF-B08B-460C-A6E9-73EB027CA179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.Basket", "Services\Basket\FreeCourse.Services.Basket\FreeCourse.Services.Basket.csproj", "{AFC3695E-72FB-4015-8E51-FBD2916370BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +52,10 @@ Global
 		{0413849B-C480-4701-8A0D-2F9FA6156C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0413849B-C480-4701-8A0D-2F9FA6156C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0413849B-C480-4701-8A0D-2F9FA6156C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC3695E-72FB-4015-8E51-FBD2916370BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC3695E-72FB-4015-8E51-FBD2916370BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC3695E-72FB-4015-8E51-FBD2916370BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC3695E-72FB-4015-8E51-FBD2916370BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{82C518F1-5915-4665-A635-7562F5E81693} = {A4C723B0-0919-4AAF-AE6F-5600B3D47A25}
 		{48133262-E2BD-47B3-94DD-96A3CDD2D2F2} = {C28A2391-DED7-4EC1-9570-98BBCD7F27A6}
 		{0413849B-C480-4701-8A0D-2F9FA6156C67} = {48133262-E2BD-47B3-94DD-96A3CDD2D2F2}
+		{6DA406EF-B08B-460C-A6E9-73EB027CA179} = {C28A2391-DED7-4EC1-9570-98BBCD7F27A6}
+		{AFC3695E-72FB-4015-8E51-FBD2916370BF} = {6DA406EF-B08B-460C-A6E9-73EB027CA179}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {17120AB9-C5FC-4E35-8FD2-1C64DAE4B2E5}
